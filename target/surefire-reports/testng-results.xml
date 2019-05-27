@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-25T07:34:31Z" name="Suite" finished-at="2019-05-25T07:36:06Z" duration-ms="94932">
+    <groups>
+    </groups>
+    <test started-at="2019-05-25T07:34:31Z" name="Test" finished-at="2019-05-25T07:36:06Z" duration-ms="94932">
+      <class name="Academy.ValidateTitle">
+        <test-method is-config="true" signature="initilizer()[pri:0, instance:Academy.ValidateTitle@c35172e]" started-at="2019-05-25T07:35:27Z" name="initilizer" finished-at="2019-05-25T07:36:05Z" duration-ms="38094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizer -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.ValidateTitle@c35172e]" started-at="2019-05-25T07:36:05Z" name="basePageNavigation" finished-at="2019-05-25T07:36:05Z" duration-ms="49" status="FAIL">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...-...> but was:<... ...>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<...-...> but was:<... ...>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at Academy.ValidateTitle.basePageNavigation(ValidateTitle.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:Academy.ValidateTitle@c35172e]" started-at="2019-05-25T07:36:06Z" name="closeDown" finished-at="2019-05-25T07:36:06Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- Academy.ValidateTitle -->
+      <class name="Academy.HomePage">
+        <test-method is-config="true" signature="initilizer()[pri:0, instance:Academy.HomePage@4bff64c2]" started-at="2019-05-25T07:34:31Z" name="initilizer" finished-at="2019-05-25T07:34:34Z" duration-ms="2890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizer -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@4bff64c2]" started-at="2019-05-25T07:34:34Z" name="basePageNavigation" data-provider="getData" finished-at="2019-05-25T07:34:54Z" duration-ms="20047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass12341234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:Academy.HomePage@4bff64c2]" started-at="2019-05-25T07:34:54Z" name="closeDown" finished-at="2019-05-25T07:34:54Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method is-config="true" signature="initilizer()[pri:0, instance:Academy.HomePage@4bff64c2]" started-at="2019-05-25T07:34:54Z" name="initilizer" finished-at="2019-05-25T07:34:56Z" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizer -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@4bff64c2]" started-at="2019-05-25T07:34:56Z" name="basePageNavigation" data-provider="getData" finished-at="2019-05-25T07:35:15Z" duration-ms="18755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rtyj@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passfghg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:Academy.HomePage@4bff64c2]" started-at="2019-05-25T07:35:15Z" name="closeDown" finished-at="2019-05-25T07:35:15Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.NavigationBar">
+        <test-method is-config="true" signature="initilizer()[pri:0, instance:Academy.NavigationBar@1b2c4efb]" started-at="2019-05-25T07:35:15Z" name="initilizer" finished-at="2019-05-25T07:35:27Z" duration-ms="11448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizer -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.NavigationBar@1b2c4efb]" started-at="2019-05-25T07:35:27Z" name="basePageNavigation" finished-at="2019-05-25T07:35:27Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:Academy.NavigationBar@1b2c4efb]" started-at="2019-05-25T07:35:27Z" name="closeDown" finished-at="2019-05-25T07:35:27Z" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- Academy.NavigationBar -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

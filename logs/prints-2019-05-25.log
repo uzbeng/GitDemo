@@ -1,0 +1,8 @@
+12:35:15.592 [main] INFO  resources.Base - Clicked on the login
+12:35:15.660 [main] INFO  resources.Base - Closed HomePage testing
+12:35:18.032 [main] INFO  resources.Base - Driver is initilized
+12:35:27.110 [main] INFO  resources.Base - Opened the page
+12:35:27.179 [main] INFO  resources.Base - Checked the nav bar
+12:35:27.337 [main] INFO  resources.Base - Closed Nav Bar testing
+12:35:29.634 [main] INFO  resources.Base - Initilized the driver
+12:36:05.431 [main] INFO  resources.Base - open the page
